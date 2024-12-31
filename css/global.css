@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+button,
+a,
+button:focus,
+a:focus,
+button:active,
+a:active {
+    outline: none;
+    border: none;
+    background: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+* {
+    /* font-family: "Poppins", serif;
+    font-family: "Noto Sans", serif; */
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
